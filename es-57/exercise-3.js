@@ -16,4 +16,4 @@ const obj = {
 const person = Person.fromObject(obj);
 console.log(person.firstName + " " + person.lastName);
 
-
+console.log(obj._proto_)
