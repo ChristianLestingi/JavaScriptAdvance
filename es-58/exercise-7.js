@@ -14,7 +14,7 @@ class Person {
 
   }
   get(){
-    return [this.firstName,this.lastName,this.age];
+    return this.firstName,this.lastName,this.age;
   }
    get fullName(){
     return` ${this.firstName} ${this.lastName} ${this.age}`
